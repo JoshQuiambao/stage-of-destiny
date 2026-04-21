@@ -110,6 +110,7 @@ nav {
   text-decoration: none;
   transition: background-position 0.4s, transform 0.2s;
   animation: shimmer 18s linear infinite;
+  clip-path: polygon(8px 0%, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
 }
 
 .nav-btn:hover {
@@ -339,8 +340,9 @@ nav {
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
-  animation: shimmer 21s linear infinite;
-  transition: transform 0.8s;
+  animation: shimmer 6s linear infinite;
+  transition: transform 0.2s;
+  clip-path: polygon(12px 0%, calc(100% - 12px) 0%, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0% calc(100% - 12px), 0% 12px);
 }
 
 .btn-gold:hover { transform: translateY(-2px); }
@@ -359,8 +361,9 @@ nav {
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
-  animation: shimmer 21s linear infinite;
-  transition: transform 0.8s;
+  animation: shimmer 6s linear infinite;
+  transition: transform 0.2s;
+  clip-path: polygon(12px 0%, calc(100% - 12px) 0%, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0% calc(100% - 12px), 0% 12px);
 }
 
 .btn-outline:hover { transform: translateY(-2px); border-color: var(--gold-bright); }
